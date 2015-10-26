@@ -2,6 +2,7 @@
 {% block content %}
 <div class="jumbotron">
         <h1>Welcome to Sam's Website</h1>
-        <p> A wonderful website</p>
+        <p> Submit a question here!</p>
+        <p><a href="{% url 'question_create' %}" class="btn btn-lg btn-primary">Submit question</a></p>
 </div>
 {% endblock %}
